@@ -4,6 +4,11 @@ import './index.css';
 
 function FilterMenu(){
 
+
+    const extraStyle = {
+      paddingRight:'10px'
+    }
+
     const leftText = {
         fontWeight:500,
         margin:0,
@@ -48,7 +53,7 @@ function FilterMenu(){
 
     return (
         <>
-        <div className="ListItem">
+        <div className="ListItem" style={extraStyle}>
                 <div style={flex}>
                     <h2 style={leftText}>availibility in </h2>
                     <h2 style={leftText2}>sort by</h2>

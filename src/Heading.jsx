@@ -20,8 +20,8 @@ function Heading(props){
         <>
             <div style={myStyle}>Smart Parking</div>
             <div style={myStyle2}>{props.location}</div>
-            <hr className="hrStyle"/>
-            <FilterMenu></FilterMenu>
+            <hr styles="height:100px;color:#696969;background-color:#696969"></hr>
+            
         </>
     );
     
