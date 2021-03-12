@@ -4,11 +4,12 @@ function DropDown(props){
 
 
     const dropStyle = {
-        marginRight:'10px',
+        marginRight:0,
         fontSize:18,
         fontWeight:500,
         marginTop:'8px',
-        width:'250px'
+        width:'250px',
+        borderRadius:'5px'
     }
 
     const [items] = React.useState(props.options);

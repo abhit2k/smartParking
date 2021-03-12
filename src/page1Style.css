@@ -1,0 +1,31 @@
+.mainDiv {
+    width:100%;
+    height: 100vh;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: 'hidden';
+  }
+  
+  .centreDiv {
+    width:30%;
+    height:100vh;
+    background: linear-gradient(to bottom right, #79d3dd, #0965df);
+    box-Shadow: 5px 5px 25px -5px rgba(0,0,0,0.5);
+    border-radius: 15px;
+  }
+
+  @media (max-width: 1000px) {
+    .centreDiv{
+        width:50%;
+    }
+}
+
+@media (max-width: 700px) {
+    .centreDiv{
+        width:90%;
+    }
+}

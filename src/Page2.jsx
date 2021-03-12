@@ -3,6 +3,7 @@ import './index.css';
 import ListItem from './ListItem';
 import Heading from './Heading';
 import { Scrollbars } from 'react-custom-scrollbars';
+import FilterMenu from './FilterMenu';
 
 function Page2(){
     return(
@@ -11,6 +12,7 @@ function Page2(){
             <div className="main-div">
                 <div className="center-div">
                 <Heading location="Patna, Bihar, India"></Heading>
+                <FilterMenu></FilterMenu>
                  <Scrollbars style ={{ width: '100%', height: '100%' }}>
                  <ListItem
                  percent = {20}
