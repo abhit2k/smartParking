@@ -1,14 +1,9 @@
 import React from 'react';
-
-import './index.css';
+import './ListItem.scss'
 
 function ListItem(props){
     const conditionalColour = {
         color : 'green'
-    }
-
-    const textColor = {
-        color : '#696969'
     }
 
     let imageToDisplay = "images/";
@@ -29,7 +24,7 @@ function ListItem(props){
             <div className="ListItem">
                 <div className="flex1">
                     <h2 className="name">{props.name} </h2>
-                    <h3 className="address" style={textColor}>{props.address}</h3>
+                    <h3 className="address">{props.address}</h3>
                 </div>
                 <div className="flex2">
                     <img src={imageToDisplay} alt="Error" className="logo"/>

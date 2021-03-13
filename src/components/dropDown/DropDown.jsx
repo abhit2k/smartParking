@@ -1,20 +1,11 @@
 import React from 'react';
+import './DropDown.scss'
 
 function DropDown(props){
 
-
-    const dropStyle = {
-        marginRight:0,
-        fontSize:18,
-        fontWeight:500,
-        marginTop:'8px',
-        width:'250px',
-        borderRadius:'5px'
-    }
-
     const [items] = React.useState(props.options);
       return (
-        <select style={dropStyle}>
+        <select>
           {items.map(item => (
             <option
               key={item.value}
