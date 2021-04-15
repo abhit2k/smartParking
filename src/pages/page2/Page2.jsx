@@ -3,13 +3,14 @@ import ListItem from '../../components/listItem/ListItem';
 import Heading from '../../components/heading/Heading';
 import { Scrollbars } from 'react-custom-scrollbars';
 import FilterMenu from '../../components/filterMenu/FilterMenu';
+import FullFilter from '../../components/fullFilterMenu/FullFilter';
 
 function Page2(){
     return(
         <div className="main-div">
             <div className="center-div">
             <Heading location="Patna, Bihar, India"></Heading>
-            <FilterMenu></FilterMenu>
+            <FullFilter></FullFilter>
                 <Scrollbars>
                 <ListItem
                 percent = {20}

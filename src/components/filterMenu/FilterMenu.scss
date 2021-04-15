@@ -1,0 +1,16 @@
+.nlm{
+    display: flex;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .flexone{
+      flex:1;
+      text-align: left;
+  }
+  
+  .flextwo{
+      flex:2;
+  }
