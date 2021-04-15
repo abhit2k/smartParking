@@ -1,0 +1,30 @@
+.item{
+    display: flex;
+    margin-left: 0;
+    margin-bottom: 0;
+    align-items: center;
+    justify-content: center;
+  }
+  .percent{
+      font-size: 1.5rem;
+      font-weight: 1000;
+  }
+  .availability{
+      margin-bottom: 10px;
+  }
+  .info{
+      font-size: 1rem;
+  }
+  .flex1{
+    flex: 3;
+    text-align: left;
+    margin:0;
+    padding:0;
+  }
+  
+  .flex2{
+    flex:1;
+  }
+  .bottom-info{
+      text-align: left;
+  }
